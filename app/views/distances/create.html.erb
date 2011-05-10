@@ -1,0 +1,17 @@
+<%- if @distance -%>
+
+	<h1 class="feedback">
+		
+		<%= "The distance for #{route_span} is #{@distance}" %>
+	
+	</h1>
+
+	<%= link_to "Calculate New Distance", distances_path, :class => :choice %>
+
+<%- else -%>
+
+	<h1 class="error">No such route!</h1>
+
+	<%= link_to "Try again", distances_path(state_params), :class => :choice %>
+
+<%- end -%>

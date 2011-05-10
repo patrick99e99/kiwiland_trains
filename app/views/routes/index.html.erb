@@ -1,0 +1,19 @@
+<%= routes_image %>
+
+<h1>Shortest Route Between Two Towns</h1>
+
+<div id="form_container">
+
+	<%- form_tag routes_path, :method => :post do %>
+
+		<%= label_tag :start_town, "Start town:"%>
+		<%= select_tag :start_town, town_options(:start_town) %>
+
+		<%= label_tag :end_town, "End town:"%>
+		<%= select_tag :end_town, town_options(:end_town) %>
+
+		<p><%= submit_tag "Find shortest route!" %></p>
+
+	<%- end -%>
+
+</div>

@@ -1,0 +1,181 @@
+body {
+	background: #fff;
+	color: #000;
+	font-family: Palatino Linotype, Book Antiqua3, Palatino6, serif;
+}
+
+html, body, #container { 
+	height: 98%; 
+}
+
+body > #container { 
+	height: auto;
+	min-height: 98%;
+}
+
+#content { 
+	padding-bottom: 3em;
+}
+
+#divider {
+	background: #b5aa50;
+	padding: 5px 0;
+	border: 1px solid #000;	
+}
+
+#footer { 
+	clear: both; 
+	height: 3em;
+	background: #b5aa50 url('../images/kiwi_skin.jpg') repeat;
+	border-top: 1px solid #000;
+	color: #fff;
+	padding: 0 0 20px 0;
+	text-align: center;
+	margin-top: -3em; 
+}
+
+#footer p {
+	margin: 10px 0 0 0;
+	letter-spacing: 4px;
+}
+
+#footer p a {
+	padding: 5px;
+}
+
+#footer span {
+	margin: 0 10px;
+	color: #000;
+}
+
+#logo {
+	background: #fff url('../images/kiwiland.jpg') no-repeat;
+	height: 150px;
+	width: auto;
+}
+
+#content {
+	border: none;
+	width: 80%;
+	margin: 0 auto;
+}
+
+select {
+	background: #7e6d33;
+	color: #ccc;
+}
+
+select:hover {
+	background: #9f8f55;
+	color: #fff;
+}
+
+a, input[type="submit"] {
+	text-align: center;
+	text-decoration: none;
+	background: #a9cc83;
+	color: #000;
+	border: 1px solid #7e6d33;
+
+}
+
+a:hover, input[type="submit"]:hover {
+	background: #c3e79d;
+	border-color: #b5aa50;
+	color: #000;
+	border-size: 4px;
+}
+
+input[type="submit"]:hover {
+	color: #f00;
+}
+
+a.choice {
+	font-size: 18pt;
+	display: block;
+	padding: 25px;
+	width: 50%;
+	margin: 25px auto;
+}
+
+a#add_node_button {
+	float: left;
+	margin: -5px 0 0 0;
+	padding: 5px;
+}
+
+input[type="submit"] {
+	clear: left;
+	padding: 15px;
+	font-size: 14pt;
+	border-size: 2px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+
+a.remove {
+	padding: 2px;
+}
+
+#form_container {
+	clear: both;
+	text-align: left;
+}
+
+#form_container p {
+	text-align: center;
+}
+
+.remove_town_link {
+	border: none;
+}
+
+h1 {
+	margin: 25px 0;
+}
+
+h1.feedback {
+	text-align: center;
+	margin: 50px 0;
+}
+
+h1 span.route_text {
+	font-size: 36pt;
+	color: #b5aa50;
+	letter-spacing: 5px;
+}
+
+li, li span.route_text {
+	font-size: 16pt;
+	color: #b5aa50;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+.error {
+	color: #c31414;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+label {
+	margin: 0 0 0 10px;
+}
+
+#trip_form {
+	margin: 25px 0 0 0;
+}
+
+.active {
+	background: #c3e79d;
+	border-color: #b5aa50;
+	text-decoration: underline;
+}
+
+#kiwi_routes {
+	float: right;
+}
+
+img {
+	border: none;
+}

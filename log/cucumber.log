@@ -1,0 +1,1078 @@
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:36:49) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: GET /distances?node_count=3 with {} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:36:49) [GET]
+  Parameters: {"node_count"=>"3"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 77ms (View: 76, DB: 0) | 200 OK [http://www.example.com/distances?node_count=3]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:36:49) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: GET /distances?node_count=3 with {} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:36:49) [GET]
+  Parameters: {"node_count"=>"3"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.example.com/distances?node_count=3]
+REQUESTING PAGE: GET /distances?node_count=2 with {} and HTTP headers {"HTTP_REFERER"=>"/distances?node_count=3"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:36:49) [GET]
+  Parameters: {"node_count"=>"2"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/distances?node_count=2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:36:49) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: POST /distances with {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"A", "town_1"=>"B"} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-01 13:36:49) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"A", "town_1"=>"B"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/distances]
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:36:49) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 4ms (View: 4, DB: 1) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: POST /distances with {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"C", "town_1"=>"A"} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-01 13:36:49) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"C", "town_1"=>"A"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/distances]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-01 13:36:49) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-01 13:36:49) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /distances with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:36:49) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/distances]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-01 13:36:49) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /trips with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:36:49) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://www.example.com/trips]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-01 13:36:50) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /routes with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 13:36:50) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://www.example.com/routes]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /routes with {} and HTTP headers {}
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 13:36:50) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/routes]
+REQUESTING PAGE: POST /routes with {"commit"=>"Find shortest route!", "end_town"=>"C", "start_town"=>"A"} and HTTP headers {"HTTP_REFERER"=>"/routes"}
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-01 13:36:50) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"C", "start_town"=>"A"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/routes]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /routes with {} and HTTP headers {}
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 13:36:50) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/routes]
+REQUESTING PAGE: POST /routes with {"commit"=>"Find shortest route!", "end_town"=>"B", "start_town"=>"B"} and HTTP headers {"HTTP_REFERER"=>"/routes"}
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-01 13:36:50) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"B", "start_town"=>"B"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/routes]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /routes with {} and HTTP headers {}
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 13:36:50) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/routes]
+REQUESTING PAGE: POST /routes with {"commit"=>"Find shortest route!", "end_town"=>"A", "start_town"=>"A"} and HTTP headers {"HTTP_REFERER"=>"/routes"}
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-01 13:36:50) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"A", "start_town"=>"A"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/routes]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:36:50) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 3ms (View: 3, DB: 1) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"stops"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:36:50) [GET]
+  Parameters: {"filter"=>"stops"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_stops (1.7ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://www.example.com/trips]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:36:50) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"distance"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:36:50) [GET]
+  Parameters: {"filter"=>"distance"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_distance (2.1ms)
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://www.example.com/trips]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:36:50) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"stops"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:36:50) [GET]
+  Parameters: {"filter"=>"stops"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_stops (1.5ms)
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: POST /trips with {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"C", "filter"=>"stops", "condition"=>"max", "distance"=>"", "stops"=>"3"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#create (for 127.0.0.1 at 2010-06-01 13:36:50) [POST]
+  Parameters: {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"C", "filter"=>"stops", "condition"=>"max", "distance"=>"", "stops"=>"3"}
+Rendering template within layouts/application
+Rendering trips/create
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/trips]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:36:50) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"stops"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:36:50) [GET]
+  Parameters: {"filter"=>"stops"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_stops (1.1ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: POST /trips with {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"A", "filter"=>"stops", "condition"=>"exact", "distance"=>"", "stops"=>"4"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#create (for 127.0.0.1 at 2010-06-01 13:36:50) [POST]
+  Parameters: {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"A", "filter"=>"stops", "condition"=>"exact", "distance"=>"", "stops"=>"4"}
+Rendering template within layouts/application
+Rendering trips/create
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/trips]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:36:50) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"stops"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:36:50) [GET]
+  Parameters: {"filter"=>"stops"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_stops (1.3ms)
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: POST /trips with {"commit"=>"Find trips!", "end_town"=>"A", "start_town"=>"A", "filter"=>"stops", "condition"=>"exact", "distance"=>"", "stops"=>"1"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#create (for 127.0.0.1 at 2010-06-01 13:36:50) [POST]
+  Parameters: {"commit"=>"Find trips!", "end_town"=>"A", "start_town"=>"A", "filter"=>"stops", "condition"=>"exact", "distance"=>"", "stops"=>"1"}
+Rendering template within layouts/application
+Rendering trips/create
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/trips]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:36:50) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"distance"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:36:50) [GET]
+  Parameters: {"filter"=>"distance"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_distance (1.7ms)
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: POST /trips with {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"C", "filter"=>"distance", "condition"=>"", "distance"=>"30", "stops"=>""} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#create (for 127.0.0.1 at 2010-06-01 13:36:50) [POST]
+  Parameters: {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"C", "filter"=>"distance", "condition"=>"", "distance"=>"30", "stops"=>""}
+Rendering template within layouts/application
+Rendering trips/create
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/trips]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: GET /distances?node_count=3 with {} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+  Parameters: {"node_count"=>"3"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 74ms (View: 74, DB: 0) | 200 OK [http://www.example.com/distances?node_count=3]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: GET /distances?node_count=3 with {} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+  Parameters: {"node_count"=>"3"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://www.example.com/distances?node_count=3]
+REQUESTING PAGE: GET /distances?node_count=2 with {} and HTTP headers {"HTTP_REFERER"=>"/distances?node_count=3"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+  Parameters: {"node_count"=>"2"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://www.example.com/distances?node_count=2]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: POST /distances with {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"A", "town_1"=>"B"} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-01 14:34:35) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"A", "town_1"=>"B"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/distances]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: POST /distances with {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"C", "town_1"=>"A"} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-01 14:34:35) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"C", "town_1"=>"A"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/distances]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://www.example.com/]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /distances with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/distances]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /trips with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://www.example.com/trips]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 19ms (View: 2, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /routes with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://www.example.com/routes]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /routes with {} and HTTP headers {}
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 11ms (View: 10, DB: 1) | 200 OK [http://www.example.com/routes]
+REQUESTING PAGE: POST /routes with {"commit"=>"Find shortest route!", "end_town"=>"C", "start_town"=>"A"} and HTTP headers {"HTTP_REFERER"=>"/routes"}
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-01 14:34:35) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"C", "start_town"=>"A"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/routes]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /routes with {} and HTTP headers {}
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://www.example.com/routes]
+REQUESTING PAGE: POST /routes with {"commit"=>"Find shortest route!", "end_town"=>"B", "start_town"=>"B"} and HTTP headers {"HTTP_REFERER"=>"/routes"}
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-01 14:34:35) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"B", "start_town"=>"B"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/routes]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /routes with {} and HTTP headers {}
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/routes]
+REQUESTING PAGE: POST /routes with {"commit"=>"Find shortest route!", "end_town"=>"A", "start_town"=>"A"} and HTTP headers {"HTTP_REFERER"=>"/routes"}
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-01 14:34:35) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"A", "start_town"=>"A"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/routes]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"stops"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+  Parameters: {"filter"=>"stops"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_stops (1.7ms)
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://www.example.com/trips]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"distance"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+  Parameters: {"filter"=>"distance"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_distance (2.2ms)
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://www.example.com/trips]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"stops"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:34:35) [GET]
+  Parameters: {"filter"=>"stops"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_stops (1.3ms)
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: POST /trips with {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"C", "filter"=>"stops", "condition"=>"max", "distance"=>"", "stops"=>"3"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#create (for 127.0.0.1 at 2010-06-01 14:34:36) [POST]
+  Parameters: {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"C", "filter"=>"stops", "condition"=>"max", "distance"=>"", "stops"=>"3"}
+Rendering template within layouts/application
+Rendering trips/create
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/trips]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:34:36) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"stops"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:34:36) [GET]
+  Parameters: {"filter"=>"stops"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_stops (0.9ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: POST /trips with {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"A", "filter"=>"stops", "condition"=>"exact", "distance"=>"", "stops"=>"4"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#create (for 127.0.0.1 at 2010-06-01 14:34:36) [POST]
+  Parameters: {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"A", "filter"=>"stops", "condition"=>"exact", "distance"=>"", "stops"=>"4"}
+Rendering template within layouts/application
+Rendering trips/create
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://www.example.com/trips]
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:34:36) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"stops"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:34:36) [GET]
+  Parameters: {"filter"=>"stops"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_stops (1.0ms)
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: POST /trips with {"commit"=>"Find trips!", "end_town"=>"A", "start_town"=>"A", "filter"=>"stops", "condition"=>"exact", "distance"=>"", "stops"=>"1"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#create (for 127.0.0.1 at 2010-06-01 14:34:36) [POST]
+  Parameters: {"commit"=>"Find trips!", "end_town"=>"A", "start_town"=>"A", "filter"=>"stops", "condition"=>"exact", "distance"=>"", "stops"=>"1"}
+Rendering template within layouts/application
+Rendering trips/create
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/trips]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:34:36) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"distance"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:34:36) [GET]
+  Parameters: {"filter"=>"distance"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_distance (1.9ms)
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: POST /trips with {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"C", "filter"=>"distance", "condition"=>"", "distance"=>"30", "stops"=>""} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#create (for 127.0.0.1 at 2010-06-01 14:34:36) [POST]
+  Parameters: {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"C", "filter"=>"distance", "condition"=>"", "distance"=>"30", "stops"=>""}
+Rendering template within layouts/application
+Rendering trips/create
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/trips]
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:53:37) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: GET /distances?node_count=3 with {} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:53:37) [GET]
+  Parameters: {"node_count"=>"3"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://www.example.com/distances?node_count=3]
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:53:37) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: GET /distances?node_count=3 with {} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:53:37) [GET]
+  Parameters: {"node_count"=>"3"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://www.example.com/distances?node_count=3]
+REQUESTING PAGE: GET /distances?node_count=2 with {} and HTTP headers {"HTTP_REFERER"=>"/distances?node_count=3"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:53:37) [GET]
+  Parameters: {"node_count"=>"2"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://www.example.com/distances?node_count=2]
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:53:37) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: POST /distances with {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"A", "town_1"=>"B"} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-04 08:53:37) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"A", "town_1"=>"B"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:53:37) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 78ms (View: 78, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: POST /distances with {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"C", "town_1"=>"A"} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-04 08:53:37) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"C", "town_1"=>"A"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-04 08:53:37) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-04 08:53:37) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /distances with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:53:37) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-04 08:53:37) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /trips with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-04 08:53:37) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-04 08:53:37) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /routes with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-04 08:53:37) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://www.example.com/routes]
+REQUESTING PAGE: GET /routes with {} and HTTP headers {}
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-04 08:53:37) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/routes]
+REQUESTING PAGE: POST /routes with {"commit"=>"Find shortest route!", "end_town"=>"C", "start_town"=>"A"} and HTTP headers {"HTTP_REFERER"=>"/routes"}
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-04 08:53:37) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"C", "start_town"=>"A"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/routes]
+REQUESTING PAGE: GET /routes with {} and HTTP headers {}
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-04 08:53:37) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/routes]
+REQUESTING PAGE: POST /routes with {"commit"=>"Find shortest route!", "end_town"=>"B", "start_town"=>"B"} and HTTP headers {"HTTP_REFERER"=>"/routes"}
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-04 08:53:37) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"B", "start_town"=>"B"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/routes]
+REQUESTING PAGE: GET /routes with {} and HTTP headers {}
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-04 08:53:37) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/routes]
+REQUESTING PAGE: POST /routes with {"commit"=>"Find shortest route!", "end_town"=>"A", "start_town"=>"A"} and HTTP headers {"HTTP_REFERER"=>"/routes"}
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-04 08:53:37) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"A", "start_town"=>"A"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/routes]
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-04 08:53:38) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"stops"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-04 08:53:38) [GET]
+  Parameters: {"filter"=>"stops"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_stops (1.8ms)
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-04 08:53:38) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"distance"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-04 08:53:38) [GET]
+  Parameters: {"filter"=>"distance"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_distance (2.1ms)
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-04 08:53:38) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"stops"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-04 08:53:38) [GET]
+  Parameters: {"filter"=>"stops"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_stops (1.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: POST /trips with {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"C", "filter"=>"stops", "condition"=>"max", "distance"=>"", "stops"=>"3"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#create (for 127.0.0.1 at 2010-06-04 08:53:38) [POST]
+  Parameters: {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"C", "filter"=>"stops", "condition"=>"max", "distance"=>"", "stops"=>"3"}
+Rendering template within layouts/application
+Rendering trips/create
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-04 08:53:38) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"stops"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-04 08:53:38) [GET]
+  Parameters: {"filter"=>"stops"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_stops (1.1ms)
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: POST /trips with {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"A", "filter"=>"stops", "condition"=>"exact", "distance"=>"", "stops"=>"4"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#create (for 127.0.0.1 at 2010-06-04 08:53:38) [POST]
+  Parameters: {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"A", "filter"=>"stops", "condition"=>"exact", "distance"=>"", "stops"=>"4"}
+Rendering template within layouts/application
+Rendering trips/create
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-04 08:53:38) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"stops"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-04 08:53:38) [GET]
+  Parameters: {"filter"=>"stops"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_stops (1.1ms)
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: POST /trips with {"commit"=>"Find trips!", "end_town"=>"A", "start_town"=>"A", "filter"=>"stops", "condition"=>"exact", "distance"=>"", "stops"=>"1"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#create (for 127.0.0.1 at 2010-06-04 08:53:38) [POST]
+  Parameters: {"commit"=>"Find trips!", "end_town"=>"A", "start_town"=>"A", "filter"=>"stops", "condition"=>"exact", "distance"=>"", "stops"=>"1"}
+Rendering template within layouts/application
+Rendering trips/create
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {} and HTTP headers {}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-04 08:53:38) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /trips with {"filter"=>"distance"} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-04 08:53:38) [GET]
+  Parameters: {"filter"=>"distance"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_distance (2.2ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: POST /trips with {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"C", "filter"=>"distance", "condition"=>"", "distance"=>"30", "stops"=>""} and HTTP headers {"HTTP_REFERER"=>"/trips"}
+
+
+Processing TripsController#create (for 127.0.0.1 at 2010-06-04 08:53:38) [POST]
+  Parameters: {"commit"=>"Find trips!", "end_town"=>"C", "start_town"=>"C", "filter"=>"distance", "condition"=>"", "distance"=>"30", "stops"=>""}
+Rendering template within layouts/application
+Rendering trips/create
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://www.example.com/trips]
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:54:03) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: GET /distances?node_count=3 with {} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:54:03) [GET]
+  Parameters: {"node_count"=>"3"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://www.example.com/distances?node_count=3]
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:54:03) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: GET /distances?node_count=3 with {} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:54:03) [GET]
+  Parameters: {"node_count"=>"3"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://www.example.com/distances?node_count=3]
+REQUESTING PAGE: GET /distances?node_count=2 with {} and HTTP headers {"HTTP_REFERER"=>"/distances?node_count=3"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:54:03) [GET]
+  Parameters: {"node_count"=>"2"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/distances?node_count=2]
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:54:03) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: POST /distances with {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"A", "town_1"=>"B"} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-04 08:54:03) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"A", "town_1"=>"B"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:54:03) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: POST /distances with {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"C", "town_1"=>"A"} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-04 08:54:03) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"C", "town_1"=>"A"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:54:09) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: GET /distances?node_count=3 with {} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:54:09) [GET]
+  Parameters: {"node_count"=>"3"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://www.example.com/distances?node_count=3]
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:54:09) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: GET /distances?node_count=3 with {} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:54:09) [GET]
+  Parameters: {"node_count"=>"3"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://www.example.com/distances?node_count=3]
+REQUESTING PAGE: GET /distances?node_count=2 with {} and HTTP headers {"HTTP_REFERER"=>"/distances?node_count=3"}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:54:09) [GET]
+  Parameters: {"node_count"=>"2"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://www.example.com/distances?node_count=2]
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:54:09) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: POST /distances with {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"A", "town_1"=>"B"} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-04 08:54:09) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"A", "town_1"=>"B"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: GET /distances with {} and HTTP headers {}
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-04 08:54:09) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.example.com/distances]
+REQUESTING PAGE: POST /distances with {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"C", "town_1"=>"A"} and HTTP headers {"HTTP_REFERER"=>"/distances"}
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-04 08:54:09) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "town_0"=>"C", "town_1"=>"A"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.example.com/distances]

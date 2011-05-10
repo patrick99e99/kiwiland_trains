@@ -1,0 +1,26 @@
+<%= routes_image %>
+
+<h1>Distance Calculator</h1>
+
+<%= link_to "Add town", distances_path(:node_count => @node_count + 1), :id => 'add_node_button' %>
+
+<div id="form_container">
+
+	<%- form_tag distances_path, :method => :post do %>
+	
+		<%- @node_count.times do |@count| %>
+
+			<%= label_tag "town_#{@count}", "Town #{@count + 1}:"%>
+			<%= select_tag "town_#{@count}", town_options("town_#{@count}") %>
+			
+			<%= hidden_field_tag :node_count, @node_count %>
+
+			<%= link_to "[x]", distances_path(:node_count => @node_count - 1), :class => 'remove_town_link' if @count > 1 %>
+
+		<%- end -%>
+		
+		<p><%= submit_tag "Calculate!" %></p>
+	
+	<%- end -%>
+	
+</div>

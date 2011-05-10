@@ -1,0 +1,36 @@
+<%= routes_image %>
+
+<h1>Find the Number of Trips</h1>
+
+<%- form_tag trips_path, :method => :get do %>
+
+	<%= label_tag :filter, "Filter by:"%>
+	<%= select_tag :filter, filter_options %>
+
+	<%= submit_tag "Go!", :name => nil %>
+
+<%- end -%>
+
+<%- if @filter %>
+
+	<div id="form_container">
+
+		<%- form_tag trips_path, :method => :post, :id => "trip_form" do %>
+
+			<%= label_tag :start_town, "Start town:"%>
+			<%= select_tag :start_town, town_options(:start_town) %>
+	
+			<%= label_tag :end_town, "End town:"%>
+			<%= select_tag :end_town, town_options(:end_town) %>
+			
+			<%= state_hidden_fields %>
+
+			<%= render :partial => "trips/filter/#{@filter}" %>
+	
+			<p><%= submit_tag "Find trips!" %></p>
+
+		<%- end -%>
+
+	</div>
+
+<%- end -%>

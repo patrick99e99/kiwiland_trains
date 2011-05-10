@@ -1,0 +1,1032 @@
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-01 13:32:46) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:32:49) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 1959ms (View: 1957, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-01 13:32:54) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "town_0"=>"A", "town_1"=>"A"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:32:58) [GET]
+  Parameters: {"node_count"=>"2", "town_0"=>"A", "town_1"=>"A"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/distances?node_count=2&town_0=A&town_1=A]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-01 13:32:59) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "town_0"=>"A", "town_1"=>"A"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:33:00) [GET]
+  Parameters: {"node_count"=>"2", "town_0"=>"A", "town_1"=>"A"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/distances?node_count=2&town_0=A&town_1=A]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-01 13:33:03) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "town_0"=>"A", "town_1"=>"E"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:33:04) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-01 13:33:10) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "town_0"=>"A", "town_1"=>"C"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:33:11) [GET]
+  Parameters: {"node_count"=>"2", "town_0"=>"A", "town_1"=>"C"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/distances?node_count=2&town_0=A&town_1=C]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-01 13:33:12) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "town_0"=>"A", "town_1"=>"C"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:33:13) [GET]
+  Parameters: {"node_count"=>"2", "town_0"=>"A", "town_1"=>"C"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 8ms (View: 6, DB: 2) | 200 OK [http://localhost/distances?node_count=2&town_0=A&town_1=C]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:33:31) [GET]
+  Parameters: {"node_count"=>"3"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/distances?node_count=3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:34:30) [GET]
+  Parameters: {"node_count"=>"3"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/distances?node_count=3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:34:33) [GET]
+  Parameters: {"node_count"=>"4"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/distances?node_count=4]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:34:34) [GET]
+  Parameters: {"node_count"=>"5"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/distances?node_count=5]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:35:37) [GET]
+  Parameters: {"node_count"=>"5"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/distances?node_count=5]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:35:40) [GET]
+  Parameters: {"node_count"=>"4"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/distances?node_count=4]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:35:41) [GET]
+  Parameters: {"node_count"=>"5"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/distances?node_count=5]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:35:41) [GET]
+  Parameters: {"node_count"=>"6"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 11ms (View: 10, DB: 2) | 200 OK [http://localhost/distances?node_count=6]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:35:42) [GET]
+  Parameters: {"node_count"=>"7"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/distances?node_count=7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:35:43) [GET]
+  Parameters: {"node_count"=>"8"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/distances?node_count=8]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-01 13:35:44) [POST]
+  Parameters: {"node_count"=>"8", "town_6"=>"A", "town_7"=>"A", "commit"=>"Calculate!", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "town_0"=>"A", "town_1"=>"A", "town_2"=>"A", "town_3"=>"A", "town_4"=>"A", "town_5"=>"A"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:35:45) [GET]
+  Parameters: {"node_count"=>"8", "town_6"=>"A", "town_7"=>"A", "town_0"=>"A", "town_1"=>"A", "town_2"=>"A", "town_3"=>"A", "town_4"=>"A", "town_5"=>"A"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/distances?node_count=8&town_0=A&town_1=A&town_2=A&town_3=A&town_4=A&town_5=A&town_6=A&town_7=A]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-01 13:35:47) [POST]
+  Parameters: {"node_count"=>"8", "town_6"=>"A", "town_7"=>"A", "commit"=>"Calculate!", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "town_0"=>"A", "town_1"=>"A", "town_2"=>"A", "town_3"=>"A", "town_4"=>"A", "town_5"=>"A"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:35:48) [GET]
+  Parameters: {"node_count"=>"8", "town_6"=>"A", "town_7"=>"A", "town_0"=>"A", "town_1"=>"A", "town_2"=>"A", "town_3"=>"A", "town_4"=>"A", "town_5"=>"A"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 14ms (View: 12, DB: 2) | 200 OK [http://localhost/distances?node_count=8&town_0=A&town_1=A&town_2=A&town_3=A&town_4=A&town_5=A&town_6=A&town_7=A]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:35:58) [GET]
+  Parameters: {"node_count"=>"9"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/distances?node_count=9]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:35:59) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:36:01) [GET]
+  Parameters: {"node_count"=>"3"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/distances?node_count=3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:36:03) [GET]
+  Parameters: {"node_count"=>"4"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/distances?node_count=4]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:36:03) [GET]
+  Parameters: {"node_count"=>"4"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/distances?node_count=4]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:36:03) [GET]
+  Parameters: {"node_count"=>"5"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 82ms (View: 81, DB: 0) | 200 OK [http://localhost/distances?node_count=5]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-01 13:36:04) [POST]
+  Parameters: {"node_count"=>"5", "commit"=>"Calculate!", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "town_0"=>"A", "town_1"=>"A", "town_2"=>"A", "town_3"=>"A", "town_4"=>"A"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:36:06) [GET]
+  Parameters: {"node_count"=>"5", "town_0"=>"A", "town_1"=>"A", "town_2"=>"A", "town_3"=>"A", "town_4"=>"A"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/distances?node_count=5&town_0=A&town_1=A&town_2=A&town_3=A&town_4=A]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:36:07) [GET]
+  Parameters: {"node_count"=>"4"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/distances?node_count=4]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:36:08) [GET]
+  Parameters: {"node_count"=>"3"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/distances?node_count=3]
+  [4;36;1mSQL (2.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:36:09) [GET]
+  Parameters: {"node_count"=>"2"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 8ms (View: 6, DB: 3) | 200 OK [http://localhost/distances?node_count=2]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:36:11) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/trips]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:36:14) [GET]
+  Parameters: {"filter"=>"stops"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_stops (1.6ms)
+Completed in 82ms (View: 80, DB: 0) | 200 OK [http://localhost/trips?filter=stops]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TripsController#create (for 127.0.0.1 at 2010-06-01 13:36:15) [POST]
+  Parameters: {"commit"=>"Find trips!", "end_town"=>"A", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "start_town"=>"A", "filter"=>"stops", "condition"=>"exact", "stops"=>"1", "distance"=>""}
+Rendering template within layouts/application
+Rendering trips/create
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/trips]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:36:17) [GET]
+  Parameters: {"end_town"=>"A", "filter"=>"stops", "start_town"=>"A", "condition"=>"exact", "distance"=>"", "stops"=>"1"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_stops (1.1ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/trips?condition=exact&distance=&end_town=A&filter=stops&start_town=A&stops=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TripsController#create (for 127.0.0.1 at 2010-06-01 13:36:29) [POST]
+  Parameters: {"commit"=>"Find trips!", "end_town"=>"A", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "start_town"=>"A", "filter"=>"stops", "condition"=>"exact", "stops"=>"1", "distance"=>""}
+Rendering template within layouts/application
+Rendering trips/create
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/trips]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 13:36:30) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/routes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-01 13:36:31) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"A", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "start_town"=>"A"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/routes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-01 13:36:33) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/options]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 13:56:46) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:56:51) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/trips]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 13:56:52) [GET]
+  Parameters: {"filter"=>"stops"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_stops (0.8ms)
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/trips?filter=stops]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 14:11:38) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/routes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:11:40) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:11:41) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/trips]
+  [4;36;1mSQL (1.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-01 14:11:42) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 3ms (View: 2, DB: 2) | 200 OK [http://localhost/options]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:12:18) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://localhost/trips]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:13:12) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-01 14:13:16) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "town_0"=>"A", "town_1"=>"B"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:13:17) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 8ms (View: 6, DB: 2) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-01 14:13:27) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "town_0"=>"A", "town_1"=>"E"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:13:29) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:13:38) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/trips]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-01 14:13:39) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/options]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 14:13:41) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/routes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-01 14:13:44) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"A", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "start_town"=>"A"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/routes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 14:13:45) [GET]
+  Parameters: {"end_town"=>"A", "start_town"=>"A"}
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/routes?end_town=A&start_town=A]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-01 14:13:50) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"E", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "start_town"=>"A"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/routes]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 14:13:51) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/routes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-01 14:13:54) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"D", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "start_town"=>"A"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/routes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 14:14:02) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/routes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-01 14:14:07) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"C", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "start_town"=>"A"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/routes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 14:14:08) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 74ms (View: 6, DB: 0) | 200 OK [http://localhost/routes]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-01 14:14:11) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"A", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "start_town"=>"E"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/routes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 14:14:28) [GET]
+  Parameters: {"end_town"=>"A", "start_town"=>"E"}
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/routes?end_town=A&start_town=E]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-01 14:14:29) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"A", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "start_town"=>"E"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/routes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 14:14:30) [GET]
+  Parameters: {"end_town"=>"A", "start_town"=>"E"}
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/routes?end_town=A&start_town=E]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-01 14:14:33) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"C", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "start_town"=>"E"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/routes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 14:14:34) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/routes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-01 14:35:04) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/options]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:35:24) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:35:33) [GET]
+  Parameters: {"node_count"=>"3"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/distances?node_count=3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:35:35) [GET]
+  Parameters: {"node_count"=>"4"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 10ms (View: 8, DB: 1) | 200 OK [http://localhost/distances?node_count=4]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-01 14:35:36) [POST]
+  Parameters: {"node_count"=>"4", "commit"=>"Calculate!", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "town_0"=>"A", "town_1"=>"A", "town_2"=>"A", "town_3"=>"A"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:35:37) [GET]
+  Parameters: {"node_count"=>"4", "town_0"=>"A", "town_1"=>"A", "town_2"=>"A", "town_3"=>"A"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/distances?node_count=4&town_0=A&town_1=A&town_2=A&town_3=A]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-01 14:35:39) [POST]
+  Parameters: {"node_count"=>"4", "commit"=>"Calculate!", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "town_0"=>"A", "town_1"=>"A", "town_2"=>"A", "town_3"=>"A"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:35:40) [GET]
+  Parameters: {"node_count"=>"4", "town_0"=>"A", "town_1"=>"A", "town_2"=>"A", "town_3"=>"A"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/distances?node_count=4&town_0=A&town_1=A&town_2=A&town_3=A]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:35:41) [GET]
+  Parameters: {"node_count"=>"3"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 79ms (View: 77, DB: 0) | 200 OK [http://localhost/distances?node_count=3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:35:42) [GET]
+  Parameters: {"node_count"=>"2"}
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/distances?node_count=2]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#create (for 127.0.0.1 at 2010-06-01 14:35:45) [POST]
+  Parameters: {"node_count"=>"2", "commit"=>"Calculate!", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "town_0"=>"A", "town_1"=>"E"}
+Rendering template within layouts/application
+Rendering distances/create
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 14:35:47) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:35:50) [GET]
+Rendering template within layouts/application
+Rendering trips/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/trips]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:35:56) [GET]
+  Parameters: {"filter"=>"distance"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_distance (1.6ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/trips?filter=distance]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:36:07) [GET]
+  Parameters: {"filter"=>"stops"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_stops (0.8ms)
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/trips?filter=stops]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing TripsController#index (for 127.0.0.1 at 2010-06-01 14:36:12) [GET]
+  Parameters: {"filter"=>"distance"}
+Rendering template within layouts/application
+Rendering trips/index
+Rendered trips/filter/_distance (1.5ms)
+Completed in 77ms (View: 75, DB: 0) | 200 OK [http://localhost/trips?filter=distance]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-01 14:39:25) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/options]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 14:40:09) [GET]
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/routes]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#create (for 127.0.0.1 at 2010-06-01 14:40:15) [POST]
+  Parameters: {"commit"=>"Find shortest route!", "end_town"=>"A", "authenticity_token"=>"Ov9ES2tbZsx9EnP3X1oq5DpTUBwTIMpiyUcY/oZegVA=", "start_town"=>"A"}
+Rendering template within layouts/application
+Rendering routes/create
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/routes]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RoutesController#index (for 127.0.0.1 at 2010-06-01 14:40:16) [GET]
+  Parameters: {"end_town"=>"A", "start_town"=>"A"}
+Rendering template within layouts/application
+Rendering routes/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/routes?end_town=A&start_town=A]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 18:04:49) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-01 18:04:50) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/options]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing DistancesController#index (for 127.0.0.1 at 2010-06-01 18:04:52) [GET]
+Rendering template within layouts/application
+Rendering distances/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/distances]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-01 18:04:58) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/options]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2010-06-01 18:04:58) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/options]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-01 18:05:09) [POST]
+  Parameters: {"commit"=>"Calculate Sales Tax!", "authenticity_token"=>"ywQTVfmMoDto5C4ti1Qf0Qxf0v0QGqV+VabYRoz2xNE="}
+
+ActionController::RoutingError (No route matches "/calculations" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-01 18:05:17) [GET]
+
+ActionController::RoutingError (No route matches "/store" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+/!\ FAILSAFE /!\  Tue May 10 16:41:50 -0700 2011
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Tue May 10 16:41:51 -0700 2011
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activesupport-2.3.5/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/patrick/.rvm/gems/ruby-1.8.7-p330/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `gem_original_require'
+    /Users/patrick/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:29:in `require'
+    script/server:3
+
+
+Processing OptionsController#index (for 127.0.0.1 at 2011-05-10 16:44:52) [GET]
+Rendering template within layouts/application
+Rendering options/index
+Completed in 20ms (View: 18 | 200 OK [http://localhost/]

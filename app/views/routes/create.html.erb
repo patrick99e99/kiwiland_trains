@@ -1,0 +1,17 @@
+<%- if @route -%>
+
+	<h1 class="feedback">
+		
+		<%= "The shortest route is: #{shortest_route_span}" %>
+		
+	</h1>
+
+	<%= link_to "Find another shortest route", routes_path, :class => :choice %>
+
+<%- else -%>
+
+	<h1 class="error">No route found!</h1>
+
+	<%= link_to "Try again", routes_path(state_params), :class => :choice %>
+
+<%- end -%>

@@ -1,0 +1,23 @@
+<%- unless @trips.length.zero? -%>
+
+	<h1 class="feedback">
+		
+		<%= "There were #{@trips.length} trips found with that query." %>
+		
+	</h1>
+	
+	<ol>
+		<%- for trip in @trips -%>
+			<li><%= route_span(trip)%></li>
+		<%- end -%>
+	</ol>
+	
+	<%= link_to "Find other trips", trips_path, :class => :choice %>
+
+<%- else -%>
+
+	<h1 class="error">No trips found!</h1>
+
+	<%= link_to "Try again", trips_path(state_params), :class => :choice %>
+
+<%- end -%>
